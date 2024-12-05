@@ -7,12 +7,19 @@ from Die import Die
 from Game import Game
 
 class Analyzer: 
-    def __init__(self, game):
-        '''The purpose of the analyzer is to take the results of a single game and 
+    '''The purpose of the analyzer is to take the results of a single game and 
         compute various descriptive statistical properties about it.
 
         Summary: Can compute the number of jackpots, the number of times a given face is rolled in an game, 
         combinations of faces rolled, and the permutations of faces rolled. 
+    '''
+    def __init__(self, game):
+        '''
+        PURPOSE
+        Create a analyzer object that can be used to determine statistics about a game
+
+        INPUTS
+        game     a game object, will through an error if the object passed is not a game
         '''
         self.game = game
         if type(self.game) !=  Game:
