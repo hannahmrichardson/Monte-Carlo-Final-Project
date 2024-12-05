@@ -35,14 +35,15 @@ This URL: https://github.com/hannahmrichardson/Monte-Carlo-Final-Project
     myDie.die_currentstate()
    ```
    The die_currentstate() will output a table, for our example it will look like the following. Note faces is the index, weights is a column:
-        weights
-    faces	
-    1	1.0
-    2	1.0
-    3	1.0
-    a	5.0
-    b	1.0
-    c	1.0
+   | faces    | weights |
+| -------- | ------- |
+| 1  | 1.0    |
+| 2 | 1.0     |
+| 3    | 1.0    |
+| a  | 5.0    |
+| b | 1.0     |
+| c    | 1.0    |
+
 
    
 5. **Play a Game Demo**
