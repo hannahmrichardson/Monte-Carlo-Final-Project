@@ -34,15 +34,7 @@ This URL: https://github.com/hannahmrichardson/Monte-Carlo-Final-Project
     #check the dies current state
     myDie.die_currentstate()
    ```
-   The die_currentstate() will output a table, for our example it will look like the following. Note faces is the index, weights is a column:
-   | faces    | weights |
-   | -------- | ------- |
-         | 1  | 1.0    |
-| 2 | 1.0     |
-| 3    | 1.0    |
-| a  | 5.0    |
-| b | 1.0     |
-| c    | 1.0    |
+   The die_currentstate() will output a table. Note faces is the index, weights is a column:
 
 
    
@@ -62,36 +54,13 @@ This URL: https://github.com/hannahmrichardson/Monte-Carlo-Final-Project
     #view the play result in wide format
     
    ```
-    The play result in narrow format will output a table with the following format in our example. The Roll Number and Die Number columns are indicies and the Outcomes column is the face
+    The play result in narrow format will output a table . The Roll Number and Die Number columns are indicies and the Outcomes column is the face
    result of the roll:
-       		                Outcomes
-    Roll Number
-    	Die Number	
-    1	1	                  a
-    2	1	                  a
-    3	1	                  c
-    4	1	                  3
-    5	1	                  1
-    1	2	                  a
-    2	2	                  a
-    3	2	                  a
-    4	2	                  a
-    5	2	                  a
-    1	3	                  3
-    2	3	                  a
-    3	3	                  3
-    4	3	                  2
-    5	3	                  a
+       		                
 
-   The play result in wide format will output a table with the following format in our example. The Roll Number column is an index and the number columns are the Die Numbers, for example
+   The play result in wide format will output a table. The Roll Number column is an index and the number columns are the Die Numbers, for example
    column 1 is the results for the first die:
-       	1	2	3
-    Roll Number			
-    1	1	2	b
-    2	3	a	b
-    3	c	a	a
-    4	a	3	a
-    5	a	c	a
+
    
 7. **Analyze a Game Demo**
    Note: This code should not be run unless a game has been created and played using Game.play(n), in this example our game is called myGame. 
@@ -109,26 +78,14 @@ This URL: https://github.com/hannahmrichardson/Monte-Carlo-Final-Project
 
    ```
 
-    The face counts per roll will output a data frame in the format:
-        Outcomes	1	2	3	a	b	c
-    Roll Number						
-    1	1.0	1.0	0.0	0.0	1.0	0.0
-    2	0.0	0.0	1.0	1.0	1.0	0.0
-    3	0.0	0.0	0.0	2.0	0.0	1.0
-    4	0.0	0.0	1.0	2.0	0.0	0.0
-    5	0.0	0.0	0.0	2.0	0.0	1.0
+    The face counts per roll will output a data frame:
 
-   The permutations count will output a dataframe in the format (full output not shown). permutations is the index:
-               	Counts
-    permutations	
-    [1,2,b]	        1
-    [3,a,b]	        1
+
+   The permutations count will output a dataframe in the format. permutations is the index and Counts as column:
+
 
    
-    Th combinations count will output a dataframe in the format (full output not shown). Combinations is the index:
-        	     Counts
-    Combinations	
-    [1,2,b]	        1
+    The combinations count will output a dataframe in the format (full output not shown). Combinations is the index and counts as a column:
    
 ### API Description: 
 
