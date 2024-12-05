@@ -36,8 +36,8 @@ This URL: https://github.com/hannahmrichardson/Monte-Carlo-Final-Project
    ```
    The die_currentstate() will output a table, for our example it will look like the following. Note faces is the index, weights is a column:
    | faces    | weights |
-| -------- | ------- |
-| 1  | 1.0    |
+   | -------- | ------- |
+         | 1  | 1.0    |
 | 2 | 1.0     |
 | 3    | 1.0    |
 | a  | 5.0    |
