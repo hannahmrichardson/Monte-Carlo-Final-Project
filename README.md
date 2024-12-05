@@ -3,6 +3,7 @@ Monte Carlo Package for DS5100 Final Project
 
 ## Read Me File for Monte Carlo Module 
 New repo containing all relevant files for the DS5100 final project.
+Monte Carlo Folder includes the files: Analyzer.py, Die.py, Game.py, MonteCarloTest.py, MonteCarlo.py (Monte Carlo contains code for Analyzer, Die, Game), __init__.py
 
 ### Metadata: 
 ## Project Name: Monte Carlo Final Project
