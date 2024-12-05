@@ -19,6 +19,8 @@ This URL: https://github.com/hannahmrichardson/Monte-Carlo-Final-Project
    pip install MonteCarlo
    #import the code
    import MonteCarlo
+   import pandas as pd
+   import numpy as np
    ```
 3. **Create Dice Demo**
    In this demo we will create a die object made up off six sides with side values of 1,2,3,a,b,c. Then we will change the die weight of side a to a value of 5. We will roll the die 10 times.
