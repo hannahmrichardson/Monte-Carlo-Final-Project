@@ -27,15 +27,15 @@ This URL: https://github.com/hannahmrichardson/Monte-Carlo-Final-Project
    Finally, we will check the current state of the die and verify that all die have a weight of 1 except for face a. 
    ``` py
    #create a numpy array to pass 
-    myfaces = np.array([1,2,3,"a","b","c"])
-    #create a Die 
-    myDie = MonteCarlo.Die(myfaces)
-    #change the Die Weights, in this example we change the weight of die side a to have a weight of 5 
-    myDie.change_side_weight("a", 5)
-    #roll the die, in this example we roll the die 5 times
-    myDie.roll_the_dice(5)
-    #check the dies current state
-    myDie.die_currentstate()
+   myfaces = np.array([1,2,3,"a","b","c"])
+   #create a Die 
+   myDie = MonteCarlo.Die(myfaces)
+   #change the Die Weights, in this example we change the weight of die side a to have a weight of 5 
+   myDie.change_side_weight("a", 5)
+   #roll the die, in this example we roll the die 5 times
+   myDie.roll_the_dice(5)
+   #check the dies current state
+   myDie.die_currentstate()
    ```
    The die_currentstate() will output a table. Note faces is the index, weights is a column:
 
@@ -47,14 +47,14 @@ This URL: https://github.com/hannahmrichardson/Monte-Carlo-Final-Project
    Note: This code should not be run unless a die is created, in this example the die is called myDie
    ``` py
    #add the dice we want to use in a list, we are using 3 dice
-    myGameDice = [myDie, myDie, myDie]
-    #create tehe game
-    myGame = MonteCarlo.Game(myGameDice)
-    #roll the dice 5 times 
-    myGame.play(5)
-    #view the play result in narrow format
-    myGame.play_result("narrow")
-    #view the play result in wide format
+   myGameDice = [myDie, myDie, myDie]
+   #create tehe game
+   myGame = MonteCarlo.Game(myGameDice)
+   #roll the dice 5 times 
+   myGame.play(5)
+   #view the play result in narrow format
+   myGame.play_result("narrow")
+   #view the play result in wide format
     
    ```
     The play result in narrow format will output a table . The Roll Number and Die Number columns are indicies and the Outcomes column is the face
